@@ -37,6 +37,7 @@ export const processIncomingMessage = async ({
                     message.interactive?.list_reply?.id ??
                     message.interactive?.nfm_reply.response_json,
                 title_button_reply: message.interactive?.button_reply?.title,
+                title_button_id: message.interactive?.button_reply?.id, 
                 title_list_reply: message.interactive?.list_reply?.title,
                 nfm_reply: message.interactive?.nfm_reply?.response_json
                     ? JSON.parse(message.interactive?.nfm_reply?.response_json)
@@ -54,6 +55,7 @@ export const processIncomingMessage = async ({
                 body: message.button?.text,
                 payload: message.button?.payload,
                 title_button_reply: message.button?.payload,
+                title_button_id: message.interactive?.button_reply?.id, 
                 pushName,
                 name: pushName,
             }

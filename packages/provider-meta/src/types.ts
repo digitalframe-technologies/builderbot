@@ -90,6 +90,7 @@ export interface Message {
     name: string
     url?: string
     payload?: string
+    title_button_id?: string
     title_button_reply?: string
     title_list_reply?: string
     latitude?: number
