@@ -22,10 +22,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/codigoencasa/bot-whatsapp.git"
+        "url": "git+https://github.com/digitalframe-technologies/builderbot.git"
     },
     "bugs": {
-        "url": "https://github.com/codigoencasa/bot-whatsapp/issues"
+        "url": "https://github.com/digitalframe-technologies/builderbot/issues"
     },
     "devDependencies": {
         "@microsoft/api-extractor": "^7.43.0",
